@@ -1,4 +1,4 @@
 -cp haxe
 -main Main
 -lib reflaxe.cpp
--D cpp-output=../terrence-wii/source/game
+-D cpp-output=../engine/source/game
