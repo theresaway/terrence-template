@@ -31,6 +31,7 @@ metadata/_custom_type_script = "uid://cl80cn0cd11d3"
 transform = Transform3D(1.2623332, 0, 0, 0, 0.8887115, 0, 5.9604645e-08, 0, 0.8406618, 0, 0, 0)
 mesh = ExtResource("3_shbgt")
 script = ExtResource("4_a3w4o")
+tiaf_mesh = ExtResource("3_shbgt")
 metadata/_custom_type_script = "uid://dk2xemcdag6vo"
 
 [node name="Root2D" type="Node2D" parent="." unique_id=1979202543]
