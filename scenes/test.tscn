@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://dnmtvi3f5cxmj" path="res://addons/terrence/nodes/thing.gd" id="1_j87m1"]
 [ext_resource type="Script" uid="uid://cl80cn0cd11d3" path="res://addons/terrence/nodes/thing3d.gd" id="2_3nrwj"]
-[ext_resource type="ArrayMesh" uid="uid://bult4y25t8cs0" path="res://test/scaletest.timf" id="3_shbgt"]
-[ext_resource type="Script" uid="uid://dkaw3u5yaox7d" path="res://addons/terrence/nodes/meshrenderer.gd" id="4_a3w4o"]
+[ext_resource type="ArrayMesh" uid="uid://cms56yc3gnv21" path="res://test/a.tiaf" id="3_shbgt"]
+[ext_resource type="Script" uid="uid://dk2xemcdag6vo" path="res://addons/terrence/nodes/animatedmesh.gd" id="4_a3w4o"]
 [ext_resource type="Script" uid="uid://cn2ir5p1llpwu" path="res://addons/terrence/nodes/thing2d.gd" id="4_mvyvq"]
 
 [node name="Scene" type="Node" unique_id=771661045]
@@ -21,41 +21,10 @@ script = ExtResource("1_j87m1")
 scrName = "DebugCamera"
 metadata/_custom_type_script = "uid://dnmtvi3f5cxmj"
 
-[node name="MeshRendererTE" type="MeshInstance3D" parent="Root3D" unique_id=29160336]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+[node name="AnimatedMeshTE" type="MeshInstance3D" parent="Root3D" unique_id=1408374001]
 mesh = ExtResource("3_shbgt")
 script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
-
-[node name="MeshRendererTE2" type="MeshInstance3D" parent="Root3D" unique_id=1203016]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009852767, 0, 0)
-mesh = ExtResource("3_shbgt")
-script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
-
-[node name="MeshRendererTE3" type="MeshInstance3D" parent="Root3D" unique_id=147047116]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.008543, 0, 0)
-mesh = ExtResource("3_shbgt")
-script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
-
-[node name="MeshRendererTE4" type="MeshInstance3D" parent="Root3D" unique_id=1626108283]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 0)
-mesh = ExtResource("3_shbgt")
-script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
-
-[node name="MeshRendererTE5" type="MeshInstance3D" parent="Root3D" unique_id=231709962]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009852767, 2, 0)
-mesh = ExtResource("3_shbgt")
-script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
-
-[node name="MeshRendererTE6" type="MeshInstance3D" parent="Root3D" unique_id=923489986]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.008543, 2, 0)
-mesh = ExtResource("3_shbgt")
-script = ExtResource("4_a3w4o")
-metadata/_custom_type_script = "uid://dkaw3u5yaox7d"
+metadata/_custom_type_script = "uid://dk2xemcdag6vo"
 
 [node name="Root2D" type="Node2D" parent="." unique_id=1979202543]
 script = ExtResource("4_mvyvq")
@@ -65,8 +34,7 @@ metadata/_custom_type_script = "uid://cn2ir5p1llpwu"
 script = ExtResource("4_mvyvq")
 metadata/_custom_type_script = "uid://cn2ir5p1llpwu"
 
-[node name="dingalingaling" type="Node" parent="RootUI" unique_id=1674658753]
+[node name="yeah" type="Node" parent="RootUI" unique_id=1674658753]
 script = ExtResource("1_j87m1")
-scrName = "Dingaling"
-visible = false
+scrName = "TestThing"
 metadata/_custom_type_script = "uid://dnmtvi3f5cxmj"

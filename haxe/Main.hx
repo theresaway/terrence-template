@@ -1,7 +1,7 @@
-import Dingaling;
+import TestThing;
 
 class Main {
 	static function main() {
-        var d = new Dingaling();
+        var d = new TestThing();
     }
 }

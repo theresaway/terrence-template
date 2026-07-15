@@ -3,19 +3,19 @@ package;
 import engine.Thing;
 import Engine;
 
-class Dingaling extends Thing {
+class TestThing extends Thing {
 	override function init() {
 		super.init();
 	}
 
 	override function update(dt:Float) {
 		super.update(dt);
-		visible = !visible;
+		// visible = !visible;
 	}
 
 	override function draw() {
 		if (visible) {
-			Engine.print("POOPYFACE");
+			Engine.print("DEAR LORD SAVE ME");
 		}
         super.draw();
 	}
