@@ -21,7 +21,12 @@ script = ExtResource("1_j87m1")
 scrName = "DebugCamera"
 metadata/_custom_type_script = "uid://dnmtvi3f5cxmj"
 
-[node name="AnimatedMeshTE" type="MeshInstance3D" parent="Root3D" unique_id=1408374001]
+[node name="move" type="Node3D" parent="Root3D" unique_id=293946681]
+script = ExtResource("2_3nrwj")
+scrName = "Mover"
+metadata/_custom_type_script = "uid://cl80cn0cd11d3"
+
+[node name="AnimatedMeshTE" type="MeshInstance3D" parent="Root3D/move" unique_id=1408374001]
 mesh = ExtResource("3_shbgt")
 script = ExtResource("4_a3w4o")
 metadata/_custom_type_script = "uid://dk2xemcdag6vo"

@@ -1,27 +1,26 @@
 package;
 
-import engine.Thing;
+import engine.Thing3D;
 import engine.Loadable;
 import Engine;
 
-class TestThing extends Thing {
+class Mover extends Thing3D {
 	override function init() {
 		super.init();
 	}
 
 	override function update(dt:Float) {
 		super.update(dt);
+        x += 0.001;
+        y += 0.002;
 		// visible = !visible;
 	}
 
 	override function draw() {
-		if (visible) {
-			Engine.print("DEAR LORD SAVE ME");
-		}
         super.draw();
 	}
 
-	override function load(args:Loadable) {
+    override function load(args:Loadable) {
         super.load(args);
     }
 }

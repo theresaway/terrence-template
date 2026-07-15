@@ -1,8 +1,8 @@
 package engine;
-import Thing;
+import engine.Thing;
 
 @:native("Thing2D")
-class Thing2D extends Thing {
+extern class Thing2D extends Thing {
     var x:Int;
     var y:Int;
 }
