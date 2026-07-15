@@ -10,4 +10,6 @@ extern class Thing {
 	function load(args:Loadable):Void;
 	function addChild(child:Thing):Void;
 	function removeChild(child:Thing):Void;
+	function setVisible(vis:Bool):Void;
+	var visible:Bool;
 }
