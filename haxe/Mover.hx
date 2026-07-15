@@ -13,6 +13,10 @@ class Mover extends Thing3D {
 		super.update(dt);
         x += 0.001;
         y += 0.002;
+
+		// xRot += 1;
+
+		// yScale -= 0.01;
 		// visible = !visible;
 	}
 

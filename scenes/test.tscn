@@ -22,11 +22,13 @@ scrName = "DebugCamera"
 metadata/_custom_type_script = "uid://dnmtvi3f5cxmj"
 
 [node name="move" type="Node3D" parent="Root3D" unique_id=293946681]
+transform = Transform3D(0.8546943, 0, -0.51913166, 0, 0.8864299, 0, 0.51913166, 0, 0.8546943, 0, 0, 0)
 script = ExtResource("2_3nrwj")
 scrName = "Mover"
 metadata/_custom_type_script = "uid://cl80cn0cd11d3"
 
 [node name="AnimatedMeshTE" type="MeshInstance3D" parent="Root3D/move" unique_id=1408374001]
+transform = Transform3D(1.2623332, 0, 0, 0, 0.8887115, 0, 5.9604645e-08, 0, 0.8406618, 0, 0, 0)
 mesh = ExtResource("3_shbgt")
 script = ExtResource("4_a3w4o")
 metadata/_custom_type_script = "uid://dk2xemcdag6vo"
